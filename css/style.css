@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    border: 1px solid #888;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.tap-menu-wrapper {
+    display: flex;
+    background-color: #8888;
+    gap: 20px;
+    border-bottom: 1px solid #888;
+
+}
+
+.butoon-text.active {
+    background-color: #888;
+}
+
+.butoon-text {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.butoon-text:hover {
+    background-color: #888;
+}
+
+#tap-menu {
+    padding: 10px;
+}
+
+.tap-menu-text {
+    display: none;
+}
+
+.tap-menu-text.active {
+    display: block;
+}
